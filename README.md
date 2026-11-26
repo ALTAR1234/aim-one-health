@@ -13,6 +13,7 @@ AiM One Health turns clinical guidelines and trial evidence into interactive tea
 - **62 guides.** 61 cancer guides plus a new **type 2 diabetes** guide built from the ADA *Standards of Care in Diabetes 2026*, the 2026 ADA/EASD consensus, KDIGO, USPSTF and the landmark outcome trials. It has 24 options, 22 trials and 63 checked sources.
 - **Your case.** Describe a case step by step. Every option is checked against its own eligibility rule and shown as *Fits*, *Doesn't fit* or *Depends*.
 - **To-do list.** A time-ordered plan grouped into *This week*, *In the first month*, *Every day and every week*, *At 3 months*, *Every year* and *Only if this applies to you*. Each step says when to do it, who helps, how to do it, what *not* to do, and the sources behind it. Tick steps off as you go, with a progress bar.
+- **Watch how.** Hands-on steps (checking blood sugar, filling your plate, home blood pressure, foot checks, exercise and treating a low) have a narrated, step-by-step animation, plus links to real how-to videos from the NHS, Diabetes UK, the ADA, the American Heart Association, Mayo Clinic and Michigan Medicine.
 - **Reminders.** Any step can have reminders: once, daily, weekly, monthly, every 3 or 6 months, or yearly. The guide suggests evidence-based timings, for example an A1C recheck every 3 months and yearly kidney, eye and foot checks. **Add all to calendar** creates calendar events with alerts, so an iPhone, Apple Watch or Android watch alerts you too.
 - **Clinician and patient views.** One switch moves between precise clinical detail and plain language.
 - **iPhone app.** Add it to the home screen from Safari and it runs full-screen with its own icon. A service worker keeps it working offline.
@@ -41,7 +42,7 @@ AiM One Health turns clinical guidelines and trial evidence into interactive tea
 - **Reminders:** a recurrence engine computes the next due time, and an iCalendar (`.ics`) export carries `RRULE` repeats and `VALARM` alerts, so calendars and watches handle notifications natively.
 - **Offline / installable:** a web app manifest plus a stale-while-revalidate service worker.
 - **Transitions:** cross-document View Transitions, with a short fade-and-glide between pages.
-- **Desktop companion (not in this repo):** an Electron app adds Windows notifications for reminders and **Ask AI**, a study assistant. It answers only from the open guide's data, cites the sources it used, offers follow-ups, and has *Simple / Extra / Full on* detail levels.
+- **Desktop companion (not in this repo):** an Electron app adds Windows notifications and optional email for reminders, and **Ask AI**, a study assistant. It answers only from the open guide's data, cites the sources it used, offers follow-ups, and has *Simple / Extra / Full on* detail levels.
 
 This repository holds the **published build** of the web app. The development source is kept separately.
 

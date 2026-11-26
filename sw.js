@@ -1,7 +1,7 @@
-const CACHE = 'aim-v4';
+const CACHE = 'aim-v5';
 const SHELL = [
 './', 'index.html', 'navigator.html', 'trainer.html', 'tools.html', 'research.html', 'resources.html', 'blog.html', 'report.html', 'request.html',
-'site.css', 'site.js', 'flip.js', 'alerts.js', 'manifest.webmanifest',
+'site.css', 'site.js', 'flip.js', 'alerts.js', 'howto.js', 'howto.css', 'manifest.webmanifest',
 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png', 'trainers/index.json',
 ];
 self.addEventListener('install', (e) => {

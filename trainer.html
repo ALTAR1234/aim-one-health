@@ -122,7 +122,7 @@ ${d.meta.population && d.meta.population.length > 140 ? `<details class="more"><
 </div>
 </section>
 <section class="t-sec" id="options" hidden>
-<p class="muted read clin-only" style="margin-bottom:16px">${d.specialty ? 'Sorted by whether they fit the case you entered under Your case.' : 'The live trainer ranks these for the case. Here they're sorted by whether they fit what you entered.'}</p>
+<p class="muted read clin-only" style="margin-bottom:16px">${d.specialty ? 'Sorted by whether they fit the case you entered under Your case.' : 'The live trainer ranks these for the case. Here they&#39;re sorted by whether they fit what you entered.'}</p>
 <p class="muted read pat-only" style="margin-bottom:16px">Paths a care team might discuss. “Fits” means the details you entered meet that option's basic requirements. It is not a recommendation.</p>
 ${settings.length > 1 ? `<div class="tabs2 chips" id="settings">${settings.map((s) => `<button class="chip${s === setting ? ' on' : ''}" data-set="${esc(s)}">${esc(s)} <span class="n">${d.arms[s].length}</span></button>`).join('')}</div>` : ''}
 <div class="opts" id="opts"></div>

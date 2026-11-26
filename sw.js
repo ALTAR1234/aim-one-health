@@ -1,4 +1,4 @@
-const CACHE = 'aim-v1';
+const CACHE = 'aim-v2';
 const SHELL = [
 './', 'index.html', 'navigator.html', 'trainer.html', 'tools.html', 'research.html', 'resources.html', 'blog.html', 'report.html', 'request.html',
 'site.css', 'site.js', 'flip.js', 'alerts.js', 'manifest.webmanifest',

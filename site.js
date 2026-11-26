@@ -8,7 +8,7 @@ const PAGES = [
 ];
 const here = document.body.dataset.page || 'index.html';
 const RAIL = [
-['index.html', 'Mission', 'target'], ['tools.html', 'Tools', 'layers'], ['navigator.html', 'Oncology Navigator', 'compass'],
+['index.html', 'Mission', 'target'], ['tools.html', 'Tools', 'layers'], ['navigator.html', 'Navigator', 'compass'],
 ['research.html', 'Open Research', 'dna'], ['resources.html', 'Resources', 'book'], ['blog.html', 'Blog', 'chat'], ['report.html', 'Sample report', 'doc'],
 ];
 const P = {

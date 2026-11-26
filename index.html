@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b2e59">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AiM">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<title>AiM One Health · One Health. One Mission. Every Patient.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+<script src="flip.js"></script>
+<style>.hero{padding: clamp(48px,7vw,96px) 0 clamp(40px,6vw,80px)}.hero h1{margin: 20px 0 22px}.hero h1 .line{display: block}.hero h1 .soft{color: var(--accent)}.hero .ctas{display: flex;flex-wrap: wrap;gap: 12px;margin-top: 32px}.preview{padding: 26px;border-radius: 30px;transform: rotate(-1.2deg)}.preview .top{display: flex;justify-content: space-between;align-items: center;gap: 12px}.preview h3{margin: 16px 0 4px;font-size: 21px}.preview .case{font-size: 15px;color: var(--ink-2)}.pv-steps{margin: 20px 0;display: grid;gap: 10px}.pv-step{display: flex;align-items: center;gap: 12px;padding: 12px 14px;border-radius: 14px;background: var(--glass-strong);box-shadow: inset 0 0 0 1px var(--glass-edge-2);font-size: 15.5px;font-weight: 600;color: var(--ink)}.pv-step .tick{flex: none;width: 26px;height: 26px;border-radius: 50%;display: grid;place-items: center;color: #fff;background: linear-gradient(135deg,#19b3b0,#3b7cf0)}.pv-step .tick svg{width: 15px;height: 15px;fill: none;stroke: currentColor;stroke-width: 3}.pv-step.now .tick{background: transparent;box-shadow: inset 0 0 0 2px var(--accent)}.pv-step.now .tick::after{content: '';width: 8px;height: 8px;border-radius: 50%;background: var(--accent);animation: beat 1.4s ease-in-out infinite}@keyframes beat{50%{transform: scale(1.6);opacity: .4}}.pv-step em{margin-left: auto;font-style: normal;font-size: 13px;color: var(--ink-3);font-weight: 600}.meter{display: grid;gap: 8px}.meter .row{display: flex;justify-content: space-between;font-size: 14.5px;font-weight: 600;color: var(--ink-2)}.meter .track{height: 10px;border-radius: 99px;background: rgb(13 40 70 / .08);overflow: hidden}:root[data-theme='night'] .meter .track{background: rgb(255 255 255 / .08)}.meter .fill{height: 100%;width: 84%;border-radius: inherit;background: linear-gradient(90deg,#19b3b0,#3b7cf0);box-shadow: 0 0 12px rgb(25 179 176 / .5)}.pv-foot{display: flex;gap: 10px;flex-wrap: wrap;margin-top: 18px}.float-chip{position: absolute;padding: 12px 16px;border-radius: 18px;font-size: 14.5px;font-weight: 600;color: var(--ink);display: flex;align-items: center;gap: 10px}.float-chip.a{left: -34px;bottom: -16px;transform: rotate(1.5deg)}.float-chip.b{right: -6px;top: -12px;transform: rotate(2deg)}.preview-wrap{position: relative;padding: 18px}.barrier h3{font-size: 20px}.vm{padding: clamp(28px,3.4vw,44px);border-radius: 30px;display: flex;flex-direction: column;gap: 18px}.vm .label{display: flex;align-items: center;gap: 12px}.vm .label b{font: 800 14px/1 var(--font-body);letter-spacing: .14em;text-transform: uppercase;color: var(--accent)}.vm .label span{font-size: 14px;color: var(--ink-3);font-weight: 600}.vm .say{font: 700 clamp(22px,2.3vw,28px)/1.3 var(--font-head);letter-spacing: -.02em;color: var(--brand)}.vm .say mark{background: none;color: var(--accent)}.vm .after{color: var(--ink-2);border-top: 1px solid rgb(13 40 70 / .08);padding-top: 18px;margin-top: auto}:root[data-theme='night'] .vm .after{border-top-color: rgb(255 255 255 / .08)}.doubling{display: grid;grid-template-columns: .9fr 1.1fr;gap: clamp(24px,4vw,56px);align-items: center;padding: clamp(28px,4vw,52px);border-radius: 34px}.doubling .huge{font: 800 clamp(84px,11vw,150px)/.9 var(--font-head);letter-spacing: -.06em;background: linear-gradient(135deg,#0b2e59 10%,#0a6f79 60%,#2563c9);-webkit-background-clip: text;background-clip: text;color: transparent}:root[data-theme='night'] .doubling .huge{background: linear-gradient(135deg,#ffffff,#7ef0e2 55%,#8db4ff);-webkit-background-clip: text;background-clip: text}.doubling .unit{font: 700 22px/1.2 var(--font-head);color: var(--brand);margin-top: 10px}.bars{display: grid;gap: 14px;margin: 18px 0 8px}.bars .b{display: grid;grid-template-columns: 64px 1fr auto;align-items: center;gap: 14px;font-size: 15px;font-weight: 600;color: var(--ink-2)}.bars .b i{display: block;height: 14px;border-radius: 99px;background: linear-gradient(90deg,#19b3b0,#3b7cf0)}.roles .tile h3{font-size: 21px}.tool{padding: clamp(26px,3vw,40px);border-radius: 30px;display: flex;flex-direction: column;gap: 18px}.tool .head{display: flex;gap: 16px;align-items: center}.tool .head span{font: 700 13px/1 var(--font-body);letter-spacing: .12em;text-transform: uppercase;color: var(--accent)}.tool h3{font-size: 27px}.tool .btn{align-self: flex-start;margin-top: auto}.final{padding: clamp(36px,6vw,80px);border-radius: 40px;text-align: center}.final h2{max-width: 18ch;margin: 16px auto 18px}.final .ctas{display: flex;flex-wrap: wrap;justify-content: center;gap: 12px;margin-top: 30px}.phases{display: grid;grid-template-columns: repeat(3,1fr);gap: clamp(20px,3vw,40px);position: relative}.phases::before{content: '';position: absolute;left: 0;right: 0;top: 7px;height: 3px;border-radius: 3px;background: var(--thread-x);opacity: .7}.phase-col .phase{position: relative;display: inline-block;padding-right: 12px;margin: 0 0 14px;background: var(--page)}.phase-col ol{list-style: none;margin: 0;padding: 0;display: grid}.phase-col li{display: grid;grid-template-columns: 38px minmax(0,1fr);gap: 10px;padding: 14px 0;border-top: 1px solid var(--line)}.phase-col .pn{font: 800 14px/1.5 var(--font-head);color: var(--accent)}.phase-col b{display: block;font: 700 17px/1.35 var(--font-head);color: var(--brand)}.phase-col li span:not(.pn){display: block;margin-top: 4px;font-size: 15px;line-height: 1.5;color: var(--ink-2)}.phase-col li.key b{color: var(--accent)}@media (max-width: 980px){.phases{grid-template-columns: 1fr}.phases::before{display: none}.doubling{grid-template-columns: 1fr}.preview{transform: none}.float-chip{display: none}}</style>
+</head>
+<body data-page="index.html">
+<main id="main">
+<section class="hero">
+<div class="wrap split">
+<div>
+<span class="eyebrow">Our purpose</span>
+<h1><span class="line">One Health.</span><span class="line">One Mission.</span><span class="line soft">Every Patient.</span></h1>
+<p class="lead read">We turn the world's medical knowledge into clear, personal guidance for one patient at a time. Experts review every case, and your own physician makes the final decision.</p>
+<div class="ctas">
+<a class="btn primary" href="request.html">Request your Care Pathway <span class="arrow">→</span></a>
+<a class="btn ghost" href="report.html">See a sample report</a>
+</div>
+</div>
+<div class="preview-wrap" aria-label="Example of a Care Pathway document">
+<div class="preview glass bloom sheen">
+<div class="top"><span class="badge"><span class="dot"></span> Care Pathway</span><span class="tiny">Oncology · Synthetic example</span></div>
+<h3>Metastatic lung cancer, EGFR exon 19</h3>
+<p class="case">Question: which first-line options fit this patient best?</p>
+<div class="pv-steps">
+<div class="pv-step"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>Specialist board review<em>6 specialties</em></div>
+<div class="pv-step"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>Deliberation and consensus<em>2 dissents noted</em></div>
+<div class="pv-step"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>Independent red-team challenge<em>Held</em></div>
+<div class="pv-step now"><span class="tick"></span>Your physician decides<em>Next step</em></div>
+</div>
+<div class="meter"><div class="row"><span>Confidence</span><span style="color:var(--ok)">High</span></div><div class="track"><div class="fill"></div></div></div>
+<div class="pv-foot"><span class="badge plain">3 alternatives considered</span><span class="badge plain">2 open questions</span></div>
+</div>
+</div>
+</div>
+</section>
+<section style="padding-top:0">
+<div class="wrap">
+<div class="sec-head center reveal">
+<span class="eyebrow">The problem</span>
+<h2>Six things stand between patients and the right care</h2>
+<p class="lead read">Every patient should have access to multidisciplinary expertise, advanced medical knowledge and coordinated guidance. Today, these get in the way.</p>
+</div>
+<div class="grid g3">
+<article class="tile glass lift reveal barrier"><span class="ico" data-ico="globe"></span><h3>Geography</h3><p>Where you live shouldn't decide which experts you can reach.</p></article>
+<article class="tile glass lift reveal barrier"><span class="ico" data-ico="user"></span><h3>Access to specialists</h3><p>Specialist insight shouldn't depend on who you happen to know.</p></article>
+<article class="tile glass lift reveal barrier"><span class="ico" data-ico="building"></span><h3>Institutional walls</h3><p>Knowledge should travel with the patient, not stop at one hospital's doors.</p></article>
+<article class="tile glass lift reveal barrier"><span class="ico" data-ico="book"></span><h3>Too much information</h3><p>No one can read everything relevant to one complex case. That's a systems problem.</p></article>
+<article class="tile glass lift reveal barrier"><span class="ico" data-ico="heart"></span><h3>Financial and social barriers</h3><p>Your circumstances shouldn't limit the quality of your decision.</p></article>
+<article class="tile glass lift reveal barrier"><span class="ico" data-ico="route"></span><h3>A complicated system</h3><p>Navigating care is a burden of its own, and it falls hardest on the sickest patients.</p></article>
+</div>
+<div class="statement glass bloom reveal" style="margin-top:28px">
+<p class="big">AiM One Health exists to <span class="grad">close those gaps</span>, turning medical knowledge into guidance that is practical, understandable and centered on you.</p>
+</div>
+</div>
+</section>
+<section id="vision">
+<div class="wrap">
+<div class="sec-head reveal">
+<span class="eyebrow">Why we exist</span>
+<h2>Vision &amp; Mission</h2>
+<p class="lead read">The vision is where we're going. The mission is the work we do every day to get there.</p>
+</div>
+<div class="grid g2">
+<article class="vm glass bloom lift reveal">
+<div class="label"><span class="ico sm" data-ico="compass"></span><b>Vision</b><span>Where we are going</span></div>
+<p class="say">A world where <mark>every patient</mark> can reach the knowledge, the specialists and the guidance to make the <mark>best possible healthcare decisions</mark>.</p>
+<p class="after">Wherever they live. However complex the case. Whatever their resources.</p>
+</article>
+<article class="vm glass bloom lift reveal">
+<div class="label"><span class="ico sm" data-ico="target"></span><b>Mission</b><span>What we do every day</span></div>
+<p class="say">To turn the medical knowledge created every day into <mark>personalized intelligence, grounded in evidence</mark>, so care decisions are fast, reliable and centered on the patient.</p>
+<p class="after">More knowledge than anyone can read, made useful for one patient at a time.</p>
+</article>
+</div>
+</div>
+</section>
+<section style="padding-top:0">
+<div class="wrap">
+<div class="doubling glass bloom reveal">
+<div>
+<div class="huge">73</div>
+<div class="unit">days for medical knowledge to double</div>
+<div class="bars" aria-label="Doubling time of medical knowledge">
+<div class="b"><span>1950</span><i style="width:100%"></i><span>50 years</span></div>
+<div class="b"><span>2020</span><i style="width:4%"></i><span>73 days</span></div>
+</div>
+<p class="small muted" style="margin-bottom:6px">The projected doubling time by 2020. In 1950 it was an estimated 50 years.</p>
+<p class="tiny">Densen P., “Challenges and Opportunities Facing Medical Education,” Trans Am Clin Climatol Assoc, 2011.</p>
+</div>
+<div class="stack">
+<h3 style="font-size:26px">Finding information isn't the problem anymore. Knowing which of it matters is.</h3>
+<p class="muted">Every day brings new research, clinical guidance, real-world evidence and patient data. The hard part is applying the right knowledge at the right time, for each patient.</p>
+<details class="more"><summary>How machine teaching works</summary><p class="muted">AiM One Health uses <b style="color:var(--ink)">machine teaching</b>: systems that learn from clinicians' expertise and reasoning, medical evidence, patient experience and real-world outcomes, then apply what they've learned to the decision in front of a patient.</p>
+<p class="muted">We bring together multidisciplinary expertise, clinical evidence, human judgment, patient navigation, advanced simulation and machine teaching, so patients and care teams can understand their options, find their way through the system, and decide faster and with more confidence.</p></details>
+</div>
+</div>
+</div>
+</section>
+<section id="aspire" style="padding-top:0">
+<div class="narrow">
+<div class="sec-head reveal">
+<span class="eyebrow">What we're building</span>
+<h2>From the world's knowledge to this patient's outcome</h2>
+<p class="lead">Knowledge only matters when it reaches the person it could help. Each link makes the next one possible.</p>
+</div>
+<div class="phases"><div class="phase-col reveal"><p class="phase">Knowledge</p><ol><li><span class="pn">01</span><div><b>New medical knowledge, every day</b><span>Research, guidance, real-world evidence, patient information and data.</span></div></li><li><span class="pn">02</span><div><b>Machine teaching makes sense of it</b><span>Learning from expertise, reasoning, evidence, experience and outcomes.</span></div></li></ol></div><div class="phase-col reveal"><p class="phase">Connection</p><ol><li><span class="pn">03</span><div><b>The right evidence meets the right patient</b><span>The right knowledge, at the right time, for this case.</span></div></li><li><span class="pn">04</span><div><b>Multidisciplinary expertise</b><span>Specialist-level review, without institutional boundaries.</span></div></li><li><span class="pn">05</span><div><b>Your options, explained</b><span>What the choices are, and what each means for you.</span></div></li></ol></div><div class="phase-col reveal"><p class="phase">Outcome</p><ol><li><span class="pn">06</span><div><b>Fast, reliable decisions</b><span>Made with confidence, with the reasoning visible.</span></div></li><li><span class="pn">07</span><div><b>Navigation to the right care</b><span>Coordinated guidance through a hard system.</span></div></li><li class="key"><span class="pn">08</span><div><b>Better care, better health outcomes</b><span>The whole chain exists for this step.</span></div></li></ol></div></div>
+</div>
+</section>
+<section id="principle" style="padding-top:0">
+<div class="wrap">
+<div class="statement glass bloom reveal" style="margin-bottom:28px">
+<span class="eyebrow">Guiding principle</span>
+<p class="big" style="margin-top:18px">AI should <span class="grad">amplify</span> human expertise, not replace it.</p>
+<p class="lead read" style="margin:18px auto 0">Technology can search, summarize, challenge and keep learning. It can't replace judgment. So we bring three kinds of people together around one patient.</p>
+<details class="more" style="margin:16px auto 0;max-width:64ch"><summary>Read more</summary><p class="muted read">That's how we keep up with the medical knowledge created every day: information that would otherwise stay scattered or overwhelming becomes usable guidance behind a timely, reliable decision for one patient.</p></details>
+</div>
+<div class="grid g3 roles">
+<article class="tile glass lift reveal"><span class="ico" data-ico="stethoscope"></span><h3>Clinicians</h3><p>Bring judgment, and teach the system through their expertise, decisions and feedback.</p></article>
+<article class="tile glass lift reveal"><span class="ico" data-ico="route"></span><h3>Navigators</h3><p>Guide and coordinate: they plan the next steps and keep care connected.</p></article>
+<article class="tile glass lift reveal"><span class="ico" data-ico="heart"></span><h3>Patients</h3><p>Bring their goals, preferences, values and lived experience. No dataset contains these.</p></article>
+</div>
+<p class="lead read center reveal" style="margin:26px auto 0">AiM One Health brings these together around one patient: a continuous learning partnership between patients, clinicians, navigators and intelligent systems.</p>
+</div>
+</section>
+<section id="tools" style="padding-top:0">
+<div class="wrap">
+<div class="sec-head reveal">
+<span class="eyebrow">Our tools</span>
+<h2>What we bring to your case</h2>
+<p class="lead read">Each tool carries a case from the evidence to a decision you understand and a next step you can take.</p>
+</div>
+<div class="grid g2">
+<article class="tool glass bloom lift sheen reveal">
+<div class="head"><span class="ico" data-ico="stethoscope"></span><span>Patient navigation</span></div>
+<h3>Care Navigator</h3>
+<p class="muted">Specialty nurses review your case and support you as you need it. Questions get answered, next steps get planned, and your care stays coordinated.</p>
+<ul class="checks"><li>Nurse-led, matched to your condition</li><li>What to ask, what to prepare, what comes next</li><li>For patients and care teams</li></ul>
+<a class="btn ghost" href="navigator.html">Open the Navigator <span class="arrow">→</span></a>
+</article>
+<article class="tool glass bloom lift sheen reveal">
+<div class="head"><span class="ico" data-ico="doc"></span><span>The deliverable · Oncology first</span></div>
+<h3>Care Pathway Research Document</h3>
+<p class="muted">One document you and your care team can actually use: the summary, the evidence behind it, the alternatives considered, and reasoning you can question.</p>
+<ul class="checks"><li>Clear reasoning with confidence levels</li><li>Alternatives and open questions included</li><li>Written for patients and clinicians alike</li></ul>
+<a class="btn ghost" href="report.html">See a sample report <span class="arrow">→</span></a>
+</article>
+</div>
+<div class="in-short glass strong reveal" style="margin-top:20px"><span class="ico sm" data-ico="loop"></span><div><b>Machine teaching connects them</b><p>Every case reviewed, every clinician correction and every patient outcome feeds back in. The next patient starts further along than the last one did.</p></div></div>
+</div>
+</section>
+<section id="how" style="padding-top:0">
+<div class="wrap">
+<div class="sec-head reveal">
+<span class="eyebrow">How a recommendation is built</span>
+<h2>Every recommendation has to earn its confidence</h2>
+<p class="lead read">Most AI tools give an answer and stop. Nothing reaches you until it has survived expert debate and an independent challenge designed to break it.</p>
+</div>
+<div class="stages reveal">
+<div class="stage"><span class="num">1</span><h3>Virtual specialist board</h3><p>AI specialists from each relevant field review the case independently.</p></div>
+<div class="stage"><span class="num">2</span><h3>Expert deliberation</h3><p>Specialists challenge each other, weigh the evidence and reach consensus.</p></div>
+<div class="stage"><span class="num">3</span><h3>Red-team challenge</h3><p>A separate reviewer tries to break the recommendation and names what's missing.</p></div>
+<div class="stage"><span class="num">4</span><h3>Evidence-based pathway</h3><p>Clear reasoning, evidence, alternatives and confidence levels.</p></div>
+<div class="stage last"><span class="num">5</span><h3>Your physician decides</h3><p>AI supports clinical judgment. It never replaces it.</p></div>
+</div>
+</div>
+</section>
+<section style="padding-top:0">
+<div class="wrap">
+<div class="final glass bloom reveal">
+<span class="eyebrow">Start with one patient</span>
+<h2>Bring us the case that keeps you up at night</h2>
+<p class="lead read" style="margin:0 auto">Submit a real oncology case and receive a Care Pathway Research Document, with the panel's summary, the evidence behind it, and reasoning you can challenge.</p>
+<div class="ctas"><a class="btn primary" href="request.html">Request a Care Pathway <span class="arrow">→</span></a><a class="btn ghost" href="report.html">See a sample report</a></div>
+</div>
+</div>
+</section>
+</main>
+<script src="site.js"></script>
+</body>
+</html>

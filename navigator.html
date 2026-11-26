@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b2e59">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AiM">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<title>Oncology Navigator · AiM One Health</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+<script src="flip.js"></script>
+<style>.hero-row{display: grid;grid-template-columns: minmax(0,1fr) auto;gap: 32px;align-items: end}.hero-row>*{min-width: 0}.gate{padding: 22px 24px;border-radius: 24px;min-width: min(270px,100%)}.gate .k{font: 700 12.5px/1 var(--font-body);letter-spacing: .12em;text-transform: uppercase;color: var(--ink-3)}.gate .v{display: flex;align-items: center;gap: 10px;margin: 10px 0 6px;font: 800 26px/1 var(--font-head);color: var(--ok)}.gate .v::before{content: '';width: 14px;height: 14px;border-radius: 50%;background: var(--ok);box-shadow: 0 0 0 5px color-mix(in srgb,var(--ok) 18%,transparent),0 0 16px var(--ok)}.gate p{font-size: 14.5px;color: var(--ink-2)}.stats{display: grid;grid-template-columns: repeat(4,1fr);gap: 14px}.stats .stat{padding: 22px;border-radius: 20px;min-width: 0}@media (max-width: 380px){.stats .stat{padding: 16px}}@media (max-width: 340px){.stats{grid-template-columns: 1fr}}.tools-bar{display: grid;gap: 16px;position: sticky;top: 96px;z-index: 5;padding: 16px;border-radius: 26px;margin-bottom: 24px}.cards{display: grid;grid-template-columns: repeat(3,1fr);gap: 16px}.cond{display: flex;flex-direction: column;gap: 10px;padding: 22px;border-radius: 20px;text-align: left;border: 0;cursor: pointer;font: inherit;color: inherit}.cond .cat{display: flex;align-items: center;gap: 8px;font: 700 12.5px/1 var(--font-body);letter-spacing: .08em;text-transform: uppercase;color: var(--c,var(--accent))}.cond .cat::before{content: '';width: 9px;height: 9px;border-radius: 3px;background: var(--c,var(--accent))}.cond h3{font-size: 18.5px;line-height: 1.3}.cond p{font-size: 15px;line-height: 1.5;color: var(--ink-2)}.cond .meta{margin-top: auto;padding-top: 8px;display: flex;justify-content: space-between;align-items: center;font-size: 13.5px;font-weight: 600;color: var(--ok)}.cond .meta span:last-child{color: var(--accent)}.count{font-size: 15px;color: var(--ink-2);margin-bottom: 14px}.empty{padding: 48px;text-align: center;border-radius: 24px;color: var(--ink-2)}.scrim{position: fixed;inset: 0;z-index: 50;background: rgb(5 15 30 / .35);-webkit-backdrop-filter: blur(6px);backdrop-filter: blur(6px);opacity: 0;pointer-events: none;transition: opacity .3s}.scrim.open{opacity: 1;pointer-events: auto}.sheet{position: fixed;z-index: 51;right: 16px;top: 16px;bottom: 16px;width: min(480px,calc(100% - 32px));padding: 30px;border-radius: 30px;overflow-y: auto;transform: translateX(110%);transition: transform .45s cubic-bezier(.2,.8,.2,1)}.sheet.open{transform: none}.sheet .close{position: absolute;right: 16px;top: 16px}.sheet h2{font-size: 30px;margin: 16px 0 10px}.sheet .facts{display: grid;grid-template-columns: 1fr 1fr;gap: 12px;margin: 22px 0}.sheet .facts div{padding: 16px;border-radius: 16px;background: var(--glass-strong);box-shadow: inset 0 0 0 1px var(--glass-edge-2)}.sheet .facts b{display: block;font: 800 22px/1 var(--font-head);color: var(--brand)}.sheet .facts span{font-size: 13.5px;color: var(--ink-2);font-weight: 600}@media (max-width: 980px){.hero-row{grid-template-columns: 1fr}.cards{grid-template-columns: 1fr 1fr}.stats{grid-template-columns: 1fr 1fr}.tools-bar{top: 86px}}@media (max-width: 640px){.cards{grid-template-columns: 1fr}.tools-bar{position: static}}</style>
+</head>
+<body data-page="navigator.html">
+<main id="main">
+<section class="page-hero">
+<div class="wrap hero-row">
+<div>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>›</span><span>Oncology Navigator</span></nav>
+<h1>Oncology Navigator</h1>
+<p class="lead read">Practice real cancer-care decisions on synthetic patients. Every recommendation links to its original source, is graded honestly, and carries an expiry date so nothing goes stale.</p>
+<div class="chips" style="margin-top:22px"><span class="badge">Evidence-linked</span><span class="badge">In silico</span><span class="badge warm">Synthetic patients only</span></div>
+</div>
+<div class="gate glass bloom">
+<div class="k">Quality gate</div>
+<div class="v">Passing</div>
+<p><b style="color:var(--ink)">232,800 checks</b>, 0 failing. Every trainer is re-tested before each release.</p>
+</div>
+</div>
+</section>
+<section style="padding-top:0">
+<div class="wrap">
+<div class="stats">
+<div class="stat glass reveal"><b>61</b><span>Live trainers</span></div>
+<div class="stat glass reveal"><b>1,490</b><span>Graded references</span></div>
+<div class="stat glass reveal"><b>640</b><span>Modeled treatment arms</span></div>
+<div class="stat glass reveal"><b>236</b><span>Clinical-trial entry points</span></div>
+<div class="stat glass reveal"><b>677</b><span>Teaching scenarios</span></div>
+<div class="stat glass reveal"><b>677</b><span>Case quizzes</span></div>
+<div class="stat glass reveal"><b>630</b><span>Honesty constraints</span></div>
+<div class="stat glass reveal"><b>232,800</b><span>Quality checks, 0 failing</span></div>
+</div>
+</div>
+</section>
+<section style="padding-top:0" id="types">
+<div class="wrap">
+<div class="sec-head"><span class="eyebrow">Choose a cancer type</span><h2>Find a trainer</h2></div>
+<div class="tools-bar glass strong">
+<label class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input class="input" id="q" placeholder="Search by name, abbreviation or theme, e.g. “lymphoma” or “CAR-T”" aria-label="Search cancer types"></label>
+<div class="chips" id="cats" role="tablist" aria-label="Filter by category"></div>
+</div>
+<p class="count" id="count"></p>
+<div class="cards" id="cards"></div>
+</div>
+</section>
+<section style="padding-top:0">
+<div class="wrap"><div class="statement glass bloom"><p class="big">Have a question about a specific case? <span class="grad">Ask the registry.</span></p><p class="lead read" style="margin:16px auto 0">Search across every trainer, reference and scenario in plain language.</p><div style="margin-top:24px"><a class="btn primary inline" href="#types">Ask the registry <span class="arrow">→</span></a></div></div></div>
+</section>
+</main>
+<script src="site.js"></script>
+<script>
+const COLORS = { 'BLOOD & MARROW': '#c2414b', LYMPHOMA: '#8b48c9', BREAST: '#c2417f', 'LUNG & THORAX': '#2563c9', GI: '#b8641c', GU: '#0e7a4f', GYNECOLOGIC: '#a43d9c', SKIN: '#9a6a12', 'BONE & SOFT TISSUE': '#55606e', 'HEAD, NECK & ENDOCRINE': '#0a6f79', 'BRAIN & CNS': '#3f4fc7', 'CROSS-CUTTING': '#6b5bd6', 'DIABETES & METABOLISM': '#d1572b' };
+const title = (c) => c.toLowerCase().replace(/(^|[\s&,]+)(\w)/g, (m) => m.toUpperCase()).replace(/\bGi\b/, 'GI').replace(/\bGu\b/, 'GU').replace(/\bCns\b/, 'CNS');
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+let DATA = [], cat = 'All';
+const draw = () => {
+const q = document.getElementById('q').value.trim().toLowerCase();
+const list = DATA.filter((d) => (cat === 'All' || d.category === cat) && (!q || `${d.name} ${d.theme} ${d.category} ${d.page} ${d.key}`.toLowerCase().includes(q)));
+document.getElementById('count').textContent = `Showing ${list.length} of ${DATA.length} trainers`;
+document.getElementById('cards').innerHTML = list.length
+? list.map((d) => `<a class="cond glass lift" style="--c:${COLORS[d.category] || 'var(--accent)'};text-decoration:none" href="trainer.html?t=${encodeURIComponent(d.page)}"><span class="cat">${title(d.category)}</span><h3>${esc(d.name)}</h3><p>${esc(d.theme.replace(/^\w/, (c) => c.toUpperCase()))}</p><span class="meta"><span>✓ Gate passed · ${d.props} properties</span><span>${d.arms} options · ${d.refs} sources →</span></span></a>`).join('')
+: '<div class="empty glass">No trainers match that search. Try a broader term, like “leukemia”.</div>';
+};
+fetch('trainers/index.json').then((r) => r.json()).then((list) => {
+DATA = list;
+const cats = ['All', ...new Set(DATA.map((d) => d.category))];
+const chips = document.getElementById('cats');
+chips.innerHTML = cats.map((c) => `<button class="chip${c === 'All' ? ' on' : ''}" data-c="${esc(c)}" role="tab">${c === 'All' ? 'All' : title(c)} <span class="n">${c === 'All' ? DATA.length : DATA.filter((d) => d.category === c).length}</span></button>`).join('');
+chips.onclick = (e) => { const b = e.target.closest('[data-c]'); if (!b) return; cat = b.dataset.c; chips.querySelectorAll('.chip').forEach((x) => x.classList.toggle('on', x === b)); draw(); };
+document.getElementById('q').oninput = draw;
+draw();
+}).catch(() => { document.getElementById('cards').innerHTML = '<div class="empty glass">Trainers could not be loaded. Open this mockup through “Open mockup.cmd”.</div>'; });
+</script>
+</body>
+</html>
